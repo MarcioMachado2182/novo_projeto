@@ -4,6 +4,6 @@ with open("pessoas.txt",'r') as file:
     lines = file.readlines()
 for line in lines:
     if line.startswith('Pessoa= '):
-        atributos = line.strip().split('Pessoa= ')[1]
+        atributos = line.strip().split('Pessoa= ')[1].split(':')[3]
 
 print(atributos)
