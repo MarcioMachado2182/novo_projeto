@@ -1,0 +1,3 @@
+Pessoa: nome Ze; idade45; cor_olho Castanho
+Pessoa: nome Chico; idade37; cor_olho Verde
+Pessoa: nome Paty; idade20; cor_olho Azul
